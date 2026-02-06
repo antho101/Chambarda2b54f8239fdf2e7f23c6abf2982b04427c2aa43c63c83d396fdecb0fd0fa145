@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Chambard - Improvisation Théâtrale à Mons</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&family=Work+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <!-- <img src="" alt="Le Chambard - Improvisation Théâtrale" class="logo-img"> -->
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#troupe">La Troupe</a></li>
+                <li><a href="#evenements">Événements</a></li>
+                <li><a href="#formations">Formations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-bg-pattern"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">LE</span>
+                <span class="title-line main">CHAMBARD</span>
+                <span class="title-line subtitle">Improvisation Théâtrale</span>
+            </h1>
+            <p class="hero-tagline">Explosez votre imaginaire</p>
+            <div class="hero-cta">
+                <a href="#evenements" class="btn btn-primary">Nos Spectacles</a>
+                <a href="#formations" class="btn btn-secondary">Nos Formations</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Découvrir</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="troupe" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2>La Compagnie</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Qui sommes-nous ?</h3>
+                    <p>La Compagnie du Chambard est une troupe de comédiens proposant avant tout divers spectacles basés sur l'improvisation théâtrale. Nous sommes issus du monde de l'improvisation théâtrale avec plus de 15 années d'expérience.</p>
+                    <p>Comédiens issus du monde de l'improvisation théâtrale, nous proposons des concepts uniques en improvisant nos textes, nos états et nos réactions sur le vif.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">2008</span>
+                            <span class="stat-label">Année de création</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Années d'expérience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">12</span>
+                            <span class="stat-label">Comédiens</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <h4>Notre Expertise</h4>
+                        <ul>
+                            <li>Participation à de nombreux tournois et festivals internationaux (Québec, France, Suisse, Belgique)</li>
+                            <li>Formateurs et animateurs aguerris aux techniques théâtrales</li>
+                            <li>Comédiens aux talents multiples (musiciens, metteurs en scène, artistes de rue)</li>
+                        </ul>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Notre Approche</h4>
+                        <p>Depuis notre création, nous nous sommes attelés à créer et à expérimenter diverses façons d'aborder l'improvisation théâtrale. De ce laboratoire que nous partageons avec notre public, divers concepts ont vu le jour.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="evenements" class="events">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2>Événements</h2>
+            </div>
+            <p class="section-intro">Découvrez nos prochains spectacles et matchs d'improvisation. Réservez votre place pour une soirée inoubliable !</p>
+            
+            <div id="facebook-events" class="events-grid">
+                <!-- Les événements Facebook seront chargés ici via JavaScript -->
+                <div class="event-placeholder">
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="event-day">À venir</span>
+                            <span class="event-month">2026</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Prochains spectacles</h3>
+                            <p class="event-location">Mons & Région</p>
+                            <p class="event-description">Suivez notre page Facebook pour découvrir nos prochains événements et réserver vos places !</p>
+                            <a href="https://www.facebook.com/lacompagnieduchambard/" target="_blank" class="event-link">Voir sur Facebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="facebook-feed-info">
+                <p>Pour ne rien manquer de notre actualité et réserver vos places, suivez-nous sur Facebook !</p>
+                <a href="https://www.facebook.com/lacompagnieduchambard/" target="_blank" class="btn btn-facebook">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                    Notre page Facebook
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formations Section -->
+    <section id="formations" class="formations">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2>Stages & Formations</h2>
+            </div>
+            
+            <div class="formations-intro">
+                <p>Que vous soyez débutant ou improvisateur confirmé, nos formations s'adaptent à tous les niveaux. Venez développer votre créativité, votre spontanéité et votre confiance en vous dans une ambiance conviviale !</p>
+            </div>
+
+            <div class="formations-grid">
+                <div class="formation-card">
+                    <div class="formation-icon">🎭</div>
+                    <h3>Cours Adultes</h3>
+                    <p class="formation-subtitle">Débutants & Confirmés à La Hestre</p>
+                   <ul class="formation-details">
+                        <li>Tous les mardis de 18h à 20h pour les débutants</li>
+                        <li>Tous les jeudis de 18h à 20h pour les confirmés</li>
+                        <li>Cours hebdomadaires avec nos coachs</li>
+                        <li>Techniques d'improvisation théâtrale</li>
+                        <li>Développement de la créativité</li>
+                        <li>Confiance en soi et spontanéité</li>
+
+                    </ul>
+                    <div class="formation-info">
+                        <p><strong>Premier cours gratuit</strong></p>
+                        <p>Pas besoin d'expérience, juste l'envie de s'amuser !</p>
+                    </div>
+                </div>
+
+                <div class="formation-card featured">
+                    <div class="formation-badge">Populaire</div>
+                    <div class="formation-icon">🌟</div>
+                    <h3>Les Chambardos</h3>
+                    <p class="formation-subtitle">Cours pour Ados (12-18 ans)</p>
+                    <ul class="formation-details">
+                        <li>Tous les samedis de 10h à 12h</li>
+                        <li>Fun, libre, créatif</li>
+                        <li>Développement de l'imagination</li>
+                        <li>Expression sur scène</li>
+                    </ul>
+                    <div class="formation-info">
+                        <p><strong>⚠️ Places limitées</strong></p>
+                        <p>Premier cours gratuit - Réservation indispensable</p>
+                    </div>
+                </div>
+
+                <div class="formation-card">
+                    <div class="formation-icon">🎪</div>
+                    <h3>Stages Intensifs</h3>
+                    <p class="formation-subtitle">Perfectionnement</p>
+                    <ul class="formation-details">
+                        <li>Stages thématiques ponctuels</li>
+                        <li>Avec des formateurs expérimentés</li>
+                        <li>Techniques avancées</li>
+                        <li>Création de spectacles</li>
+                    </ul>
+                    <div class="formation-info">
+                        <p>Dates et inscriptions sur Facebook</p>
+                    </div>
+                </div>
+
+                <div class="formation-card">
+                    <div class="formation-icon">🏢</div>
+                    <h3>Événementiel</h3>
+                    <p class="formation-subtitle">Entreprises & Associations</p>
+                    <ul class="formation-details">
+                        <li>Spectacles sur mesure</li>
+                        <li>Team building</li>
+                        <li>Animations d'événements</li>
+                        <li>Interventions personnalisées</li>
+                    </ul>
+                    <div class="formation-info">
+                        <p>Contactez-nous pour un devis personnalisé</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2>Contact</h2>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Rejoignez l'aventure !</h3>
+                    <p>Que vous souhaitiez assister à un spectacle, vous inscrire à nos cours, ou organiser un événement avec nous, n'hésitez pas à nous contacter.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:info@chambard.be">info@chambard.be</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">💬</div>
+                            <div>
+                                <h4>Facebook Messenger</h4>
+                                <p>Contactez-nous directement via notre page Facebook</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Mons, Belgique</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/lacompagnieduchambard/" target="_blank" class="social-link facebook" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="http://chambard.be" target="_blank" class="social-link website" aria-label="Site web">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <h3>Envoyez-nous un message</h3>
+                        
+                        <div class="form-group">
+                            <label for="name">Nom *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Sujet *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Choisissez un sujet</option>
+                                <option value="spectacle">Réservation spectacle</option>
+                                <option value="cours">Inscription aux cours</option>
+                                <option value="evenement">Organisation d'événement</option>
+                                <option value="autre">Autre demande</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Le Chambard</h4>
+                    <p>Compagnie d'improvisation théâtrale</p>
+                    <p>Mons, Belgique</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="#troupe">La Troupe</a></li>
+                        <li><a href="#evenements">Événements</a></li>
+                        <li><a href="#formations">Formations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Suivez-nous</h4>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/lacompagnieduchambard/" target="_blank">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Le Chambard - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./javascript/index.js"></script>
+</body>
+</html>
